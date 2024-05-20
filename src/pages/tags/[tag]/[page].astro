@@ -6,6 +6,7 @@ import getPostsByTag from "@utils/getPostsByTag";
 import getPageNumbers from "@utils/getPageNumbers";
 import getPagination from "@utils/getPagination";
 
+export const prerender = true;
 export interface Props {
   post: CollectionEntry<"blog">;
   tag: string;
