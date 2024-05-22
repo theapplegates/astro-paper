@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://paper.paulapplegate.com/", // replace this with your deployed domain
   author: "Paul Applegate",
   desc: "A minimal, responsive site that is my life",
-  title: "Living Live",
+  title: "Living Life",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
