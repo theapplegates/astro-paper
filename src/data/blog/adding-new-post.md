@@ -12,6 +12,53 @@ description:
   Some rules & recommendations for creating or adding new posts using AstroPaper
   theme.
 ---
+<picture class="responsive-image">
+    <source type="image/jxl"
+            srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/w_200,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 200w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_450,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 450w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_700,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 700w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_950,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 950w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1200,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1200w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1450,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1450w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1700,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1700w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1950,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1950w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_2200,f_jxl,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 2200w"
+            sizes="(max-width: 768px) 100vw,
+                     (max-width: 1024px) 75vw,
+                     50vw">
+    
+  <source type="image/avif"
+            srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/w_200,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 200w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_450,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 450w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_700,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 700w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_950,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 950w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1200,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1200w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1450,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1450w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1700,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1700w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1950,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1950w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_2200,f_avif,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 2200w"
+            sizes="(max-width: 768px) 100vw,
+                     (max-width: 1024px) 75vw,
+                     50vw">
+    
+  <source type="image/jpeg"
+            srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/w_200,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 200w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_450,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 450w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_700,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 700w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_950,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 950w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1200,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1200w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1450,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1450w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1700,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1700w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_1950,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 1950w,
+                     https://res.cloudinary.com/paulapplegate-com/image/upload/w_2200,f_jpeg,q_auto,dpr_auto/r5xdm6ybh4emovdv6m8h 2200w"
+            sizes="(max-width: 768px) 100vw,
+                     (max-width: 1024px) 75vw,
+                     50vw">
+    <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/w_800,f_auto,q_auto/r5xdm6ybh4emovdv6m8h"
+         alt="Responsive image"
+         loading="lazy"
+         class="responsive-img">
+</picture>
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
 
