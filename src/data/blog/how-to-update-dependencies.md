@@ -11,6 +11,30 @@ tags:
 description: How to update project dependencies and AstroPaper template.
 ---
 
+<picture>
+  <source
+    type="image/jxl"
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_200/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.jxl 200w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_727/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.jxl 727w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_738/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.jxl 738w"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px">
+  <source
+    type="image/avif"
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_200/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.avif 200w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_727/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.avif 727w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_738/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.avif 738w"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px">
+  <img
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_200/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.jpg"
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_200/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.jpg 200w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_727/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.jpg 727w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_738/v1748715644/responsive-uploads/bqly5h9ge2ivqe0sn8lp.jpg 738w"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
+    alt="Responsive image"
+    loading="lazy"
+    class="w-full h-auto">
+</picture>
+
 Updating the dependencies of a project can be tedious. However, neglecting to update project dependencies is not a good idea either 😬. In this post, I will share how I usually update my projects, focusing on AstroPaper as an example. Nonetheless, these steps can be applied to other js/node projects as well.
 
 ![Forrest Gump Fake Quote](@/assets/images/forrest-gump-quote.png)
