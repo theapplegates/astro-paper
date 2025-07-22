@@ -7,6 +7,50 @@ tags:
   - docs
 description: Learn how to add LaTeX equations in Astro blog posts using Markdown, KaTeX, and remark/rehype plugins.
 ---
+<picture>
+  <source type="image/avif" srcset="
+        https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_50/evokujxkfmhnyjeowv15.avif 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_312/evokujxkfmhnyjeowv15.avif 312w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_679/evokujxkfmhnyjeowv15.avif 679w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_712/evokujxkfmhnyjeowv15.avif 712w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_818/evokujxkfmhnyjeowv15.avif 818w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_910/evokujxkfmhnyjeowv15.avif 910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_982/evokujxkfmhnyjeowv15.avif 982w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_993/evokujxkfmhnyjeowv15.avif 993w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_995/evokujxkfmhnyjeowv15.avif 995w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_avif,w_1000/evokujxkfmhnyjeowv15.avif 1000w
+  " sizes="100vw">
+  <source type="image/jxl" srcset="
+        https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_50/evokujxkfmhnyjeowv15.jxl 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_312/evokujxkfmhnyjeowv15.jxl 312w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_679/evokujxkfmhnyjeowv15.jxl 679w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_712/evokujxkfmhnyjeowv15.jxl 712w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_818/evokujxkfmhnyjeowv15.jxl 818w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_910/evokujxkfmhnyjeowv15.jxl 910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_982/evokujxkfmhnyjeowv15.jxl 982w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_993/evokujxkfmhnyjeowv15.jxl 993w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_995/evokujxkfmhnyjeowv15.jxl 995w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jxl,w_1000/evokujxkfmhnyjeowv15.jxl 1000w
+  " sizes="100vw">
+  <img 
+        src="https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_50/evokujxkfmhnyjeowv15.jpg" 
+        srcset="
+        https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_50/evokujxkfmhnyjeowv15.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_312/evokujxkfmhnyjeowv15.jpg 312w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_679/evokujxkfmhnyjeowv15.jpg 679w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_712/evokujxkfmhnyjeowv15.jpg 712w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_818/evokujxkfmhnyjeowv15.jpg 818w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_910/evokujxkfmhnyjeowv15.jpg 910w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_982/evokujxkfmhnyjeowv15.jpg 982w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_993/evokujxkfmhnyjeowv15.jpg 993w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_995/evokujxkfmhnyjeowv15.jpg 995w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/f_jpg,w_1000/evokujxkfmhnyjeowv15.jpg 1000w
+  " 
+        sizes="100vw" 
+        alt="Responsive evokujxkfmhnyjeowv15" 
+        loading="lazy" 
+        decoding="async">
+</picture>
 
 This document demonstrates how to use LaTeX equations in your Markdown files for AstroPaper. LaTeX is a powerful typesetting system often used for mathematical and scientific documents.
 
