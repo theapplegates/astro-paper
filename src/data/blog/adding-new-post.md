@@ -12,6 +12,98 @@ description:
   Some rules & recommendations for creating or adding new posts using AstroPaperr
   theme.
 ---
+<picture>
+  <source 
+    type="image/jxl" 
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_50/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 50w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_348/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 348w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_542/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 542w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_748/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 748w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_926/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 926w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_1090/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 1090w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_1244/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 1244w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_1404/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 1404w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_1623/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 1623w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_2000/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 2000w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jxl/c_scale,w_2500/v1757282860/kp3pbfja6wjhf2i6xiqg.jxl 2500w" 
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px" 
+  />
+  <source 
+    type="image/avif" 
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_50/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 50w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_348/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 348w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_542/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 542w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_748/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 748w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_926/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 926w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_1090/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 1090w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_1244/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 1244w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_1404/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 1404w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_1623/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 1623w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_2000/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 2000w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_avif/c_scale,w_2500/v1757282860/kp3pbfja6wjhf2i6xiqg.avif 2500w" 
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px" 
+  />
+  <img 
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_800/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg"
+    srcset="https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_50/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 50w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_348/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 348w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_542/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 542w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_748/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 748w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_926/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 926w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_1090/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 1090w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_1244/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 1244w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_1404/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 1404w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_1623/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 1623w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_2000/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 2000w,
+      https://res.cloudinary.com/paulapplegate-com/image/upload/q_auto,f_jpg/c_scale,w_2500/v1757282860/kp3pbfja6wjhf2i6xiqg.jpg 2500w"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
+    alt="A responsive image uploaded to Cloudinary"
+    loading="lazy"
+    width="2500"
+    height="3312"
+    class="w-full h-auto rounded-lg shadow-lg"
+  />
+</picture>
+
+<picture>
+  <source type="image/jxl" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1744947725/gfh96plcmk14nzdkpqkn.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_753/v1744947725/gfh96plcmk14nzdkpqkn.jpg 753w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1144/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1144w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1440/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1440w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <source type="image/avif" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1744947725/gfh96plcmk14nzdkpqkn.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_753/v1744947725/gfh96plcmk14nzdkpqkn.jpg 753w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1144/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1144w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1440/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1440w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <source type="image/jpeg" srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1744947725/gfh96plcmk14nzdkpqkn.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_753/v1744947725/gfh96plcmk14nzdkpqkn.jpg 753w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1144/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1144w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1440/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1440w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1600w
+  " sizes="(max-width: 1600px) 100vw, 1600px">
+  <img
+    src="https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/v1744947725/gfh96plcmk14nzdkpqkn.jpg"
+    srcset="
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_50/v1744947725/gfh96plcmk14nzdkpqkn.jpg 50w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_753/v1744947725/gfh96plcmk14nzdkpqkn.jpg 753w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1144/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1144w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1440/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1440w,
+    https://res.cloudinary.com/paulapplegate-com/image/upload/c_scale,w_1600/v1744947725/gfh96plcmk14nzdkpqkn.jpg 1600w
+  "
+    sizes="(max-width: 1600px) 100vw, 1600px"
+    width="3559"
+    height="5339"
+    alt="Responsive gfh96plcmk14nzdkpqkn"
+    loading="lazy"
+    decoding="async">
+</picture>
+
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
 
