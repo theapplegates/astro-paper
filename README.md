@@ -33,7 +33,7 @@ _Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver**
 <p align="center">
   <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
     <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  <a>
+  </a>
 </p>
 
 ## 🚀 Project Structure
@@ -43,27 +43,27 @@ Inside of AstroPaper, you'll see the following folders and files:
 ```bash
 /
 ├── public/
-│   ├── assets/
-|   ├── pagefind/ # auto-generated when build
-│   └── favicon.svg
+│   ├── pagefind/ # auto-generated when build
+│   ├── favicon.svg
 │   └── astropaper-og.jpg
-│   └── favicon.svg
-│   └── toggle-theme.js
 ├── src/
 │   ├── assets/
-│   │   └── icons/
+│   │   ├── icons/
 │   │   └── images/
 │   ├── components/
 │   ├── data/
 │   │   └── blog/
 │   │       └── some-blog-posts.md
 │   ├── layouts/
-│   └── pages/
-│   └── styles/
-│   └── utils/
-│   └── config.ts
-│   └── constants.ts
-│   └── content.config.ts
+│   ├── pages/
+│   ├── scripts/
+│   ├── styles/
+│   ├── utils/
+│   ├── config.ts
+│   ├── constants.ts
+│   ├── content.config.ts
+│   ├── env.d.ts
+│   └── remark-collapse.d.ts
 └── astro.config.ts
 ```
 
