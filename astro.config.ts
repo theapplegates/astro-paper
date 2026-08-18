@@ -57,6 +57,16 @@ export default defineConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    ssr: {
+      noExternal: ["astro-cloudinary", "@radix-ui/*"]
+    },
+    optimizeDeps: {
+      exclude: ["astro-cloudinary"]
+    },
+    build: {
+      cssMinify: true,
+      minify: "esbuild"
+    }
   },
   fonts: [
     {
