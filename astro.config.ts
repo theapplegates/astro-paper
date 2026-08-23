@@ -4,6 +4,8 @@ import {
   fontProviders,
   svgoOptimizer,
 } from "astro/config";
+import rehypeRaw from "rehype-raw";
+import { rehypeCloudinaryPicture } from "./src/plugins/rehype-cloudinary-picture.mjs";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
@@ -41,7 +43,7 @@ export default defineConfig({
         remarkToc,
         [remarkCollapse, { test: "Table of contents" }],
       ],
-      rehypePlugins: [rehypeCallouts],
+      rehypePlugins: [rehypeRaw, rehypeCloudinaryPicture, rehypeCallouts],
     }),
     shikiConfig: {
       themes: { light: "min-light", dark: "night-owl" },
