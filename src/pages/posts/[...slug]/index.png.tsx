@@ -27,7 +27,7 @@ export const GET: APIRoute = async ({ props, url }) => {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
-  const fonts = fontData["--font-google-sans-code"];
+  const fonts = fontData["--font-wotfard"];
   const regularFontPath = getFontPathByWeight(fonts, 400);
   const boldFontPath = getFontPathByWeight(fonts, 700);
 
@@ -132,13 +132,13 @@ const svg = await satori(
       embedFont: true,
       fonts: [
         {
-          name: "Google Sans Code",
+          name: "Wotfard",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Google Sans Code",
+          name: "Wotfard",
           data: boldData,
           weight: 700,
           style: "normal",
