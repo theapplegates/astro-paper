@@ -6,7 +6,7 @@ import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import config from "@/config";
 
 export const GET: APIRoute = async context => {
-  const fonts = fontData["--font-google-sans-code"];
+  const fonts = fontData["--font-wotfard"];
   const regularFontPath = getFontPathByWeight(fonts, 400);
   const boldFontPath = getFontPathByWeight(fonts, 700);
 
@@ -32,7 +32,7 @@ const svg = await satori(
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        fontFamily: "Google Sans Code",
+        fontFamily: "Wotfard",
       }}
     >
       <div
@@ -114,13 +114,13 @@ const svg = await satori(
       embedFont: true,
       fonts: [
         {
-          name: "Google Sans Code",
+          name: "Wotfard",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Google Sans Code",
+          name: "Wotfard",
           data: boldData,
           weight: 700,
           style: "normal",

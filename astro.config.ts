@@ -72,13 +72,46 @@ export default defineConfig({
   },
   fonts: [
     {
-      name: "Google Sans Code",
-      cssVariable: "--font-google-sans-code",
-      provider: fontProviders.google(),
-      fallbacks: ["monospace"],
-      weights: [300, 400, 500, 600, 700],
-      styles: ["normal", "italic"],
-      formats: ["woff", "ttf"],
+      name: "Wotfard",
+      cssVariable: "--font-wotfard",
+      provider: fontProviders.local(),
+      fallbacks: ["sans-serif"],
+      options: {
+        variants: [
+          ...[
+            [100, "thin"],
+            [200, "extralight"],
+            [300, "light"],
+            [400, "regular"],
+            [500, "medium"],
+            [600, "semibold"],
+            [700, "bold"],
+          ].map(([weight, name]) => ({
+            weight,
+            style: "normal" as const,
+            src: [
+              `./src/assets/fonts/Wotfard-Roman/woff2/wotfard-${name}-webfont.woff2`,
+              `./src/assets/fonts/Wotfard-Roman/ttf/wotfard-${name}-webfont.ttf`,
+            ],
+          })),
+          ...[
+            [100, "thinitalic"],
+            [200, "extralightitalic"],
+            [300, "lightitalic"],
+            [400, "regularitalic"],
+            [500, "mediumitalic"],
+            [600, "semibolditalic"],
+            [700, "bolditalic"],
+          ].map(([weight, name]) => ({
+            weight,
+            style: "italic" as const,
+            src: [
+              `./src/assets/fonts/Wotfard-Italic/woff2/wotfard-${name}-webfont.woff2`,
+              `./src/assets/fonts/Wotfard-Italic/ttf/wotfard-${name}-webfont.ttf`,
+            ],
+          })),
+        ],
+      },
     },
   ],
   env: {
