@@ -54,5 +54,236 @@
         1920
       ]
     }
+  },
+  "paulapplegate-com/assets/images/69514585-8ADF-427F-B412-9BEE97D44D98": {
+    "publicId": "assets/images/69514585-8ADF-427F-B412-9BEE97D44D98",
+    "cloudName": "paulapplegate-com",
+    "width": 1086,
+    "height": 1448,
+    "version": 1783548002,
+    "sizes": "(max-width: 720px) calc(100vw - 3rem), 672px",
+    "widths": {
+      "jxl": [
+        50,
+        336,
+        505,
+        674,
+        833,
+        997,
+        1086
+      ],
+      "avif": [
+        50,
+        319,
+        551,
+        758,
+        993,
+        1086
+      ],
+      "webp": [
+        50,
+        299,
+        445,
+        533,
+        659,
+        775,
+        910,
+        1028,
+        1045,
+        1086
+      ]
+    }
+  },
+  "paulapplegate-com/assets/images/ChatGImageApr26": {
+    "publicId": "assets/images/ChatGImageApr26",
+    "cloudName": "paulapplegate-com",
+    "width": 1254,
+    "height": 1254,
+    "version": 1779227707,
+    "sizes": "(max-width: 720px) calc(100vw - 3rem), 672px",
+    "widths": {
+      "jxl": [
+        50,
+        243,
+        358,
+        448,
+        538,
+        610,
+        676,
+        747,
+        807,
+        874,
+        943,
+        1011,
+        1069,
+        1145,
+        1211,
+        1239,
+        1254
+      ],
+      "avif": [
+        50,
+        290,
+        435,
+        548,
+        649,
+        756,
+        848,
+        946,
+        1034,
+        1133,
+        1219,
+        1254
+      ],
+      "webp": [
+        50,
+        279,
+        411,
+        506,
+        570,
+        647,
+        753,
+        829,
+        879,
+        931,
+        997,
+        1056,
+        1126,
+        1196,
+        1250,
+        1254
+      ]
+    }
+  },
+  "paulapplegate-com/assets/images/clay-banks-awsOkT5bksE-unsplash": {
+    "publicId": "assets/images/clay-banks-awsOkT5bksE-unsplash",
+    "cloudName": "paulapplegate-com",
+    "width": 3400,
+    "height": 2267,
+    "version": 1782481385,
+    "sizes": "(max-width: 720px) calc(100vw - 3rem), 672px",
+    "widths": {
+      "jxl": [
+        50,
+        563,
+        854,
+        1102,
+        1348,
+        1592,
+        1797,
+        1898,
+        1920
+      ],
+      "avif": [
+        50,
+        725,
+        1197,
+        1694,
+        1888,
+        1920
+      ],
+      "webp": [
+        50,
+        565,
+        862,
+        1088,
+        1326,
+        1525,
+        1750,
+        1754,
+        1888,
+        1908,
+        1920
+      ]
+    }
+  },
+  "paulapplegate-com/assets/images/contract_vfe0tn": {
+    "publicId": "assets/images/contract_vfe0tn",
+    "cloudName": "paulapplegate-com",
+    "width": 1222,
+    "height": 1600,
+    "version": 1779583193,
+    "sizes": "(max-width: 720px) calc(100vw - 3rem), 672px",
+    "widths": {
+      "jxl": [
+        50,
+        295,
+        438,
+        564,
+        689,
+        798,
+        908,
+        1021,
+        1161,
+        1219,
+        1222
+      ],
+      "avif": [
+        50,
+        306,
+        446,
+        591,
+        711,
+        869,
+        1001,
+        1130,
+        1219,
+        1222
+      ],
+      "webp": [
+        50,
+        287,
+        569,
+        616,
+        689,
+        772,
+        848,
+        913,
+        981,
+        1047,
+        1117,
+        1189,
+        1220,
+        1222
+      ]
+    }
+  },
+  "paulapplegate-com/assets/images/Image-1": {
+    "publicId": "assets/images/Image-1",
+    "cloudName": "paulapplegate-com",
+    "width": 11656,
+    "height": 8742,
+    "version": 1779222964,
+    "sizes": "(max-width: 720px) calc(100vw - 3rem), 672px",
+    "widths": {
+      "jxl": [
+        50,
+        557,
+        894,
+        1165,
+        1375,
+        1574,
+        1732,
+        1920
+      ],
+      "avif": [
+        50,
+        757,
+        1345,
+        1759,
+        1920
+      ],
+      "webp": [
+        50,
+        597,
+        889,
+        1182,
+        1362,
+        1525,
+        1738,
+        1879,
+        1920
+      ]
+    }
   }
 }

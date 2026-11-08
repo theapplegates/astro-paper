@@ -24,6 +24,7 @@
     "@orama/orama": "^3.1.18",
     "@tailwindcss/vite": "^4.3.4",
     "astro": "^7.4.5",
+    "astro-cloudinary": "^1.4.0",
     "dayjs": "^1.11.23",
     "hast-util-from-html": "^2.1.0",
     "lodash.kebabcase": "^4.1.1",

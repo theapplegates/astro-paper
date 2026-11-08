@@ -6,9 +6,9 @@ import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import config from "@/config";
 
 export const GET: APIRoute = async context => {
-  const fonts = fontData["--font-google-sans-code"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
+  const fonts = fontData["--font-wotfard"];
+  const regularFontPath = getFontPathByWeight(fonts, 400, { format: "woff2" });
+  const boldFontPath = getFontPathByWeight(fonts, 700, { format: "woff2" });
 
   if (regularFontPath === undefined || boldFontPath === undefined) {
     throw new Error("Cannot find the font path.");
@@ -35,7 +35,7 @@ export const GET: APIRoute = async context => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "Google Sans Code",
+          fontFamily: "Wotfard",
         },
         children: [
           {
@@ -154,13 +154,13 @@ export const GET: APIRoute = async context => {
       embedFont: true,
       fonts: [
         {
-          name: "Google Sans Code",
+          name: "Wotfard",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Google Sans Code",
+          name: "Wotfard",
           data: boldData,
           weight: 700,
           style: "normal",

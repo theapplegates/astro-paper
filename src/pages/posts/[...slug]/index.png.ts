@@ -28,9 +28,9 @@ export const GET: APIRoute = async ({ props, url }) => {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
-  const fonts = fontData["--font-google-sans-code"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
+  const fonts = fontData["--font-wotfard"];
+  const regularFontPath = getFontPathByWeight(fonts, 400, { format: "woff2" });
+  const boldFontPath = getFontPathByWeight(fonts, 700, { format: "woff2" });
 
   if (regularFontPath === undefined || boldFontPath === undefined) {
     throw new Error("Cannot find the font path.");
@@ -172,13 +172,13 @@ export const GET: APIRoute = async ({ props, url }) => {
       embedFont: true,
       fonts: [
         {
-          name: "Google Sans Code",
+          name: "Wotfard",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Google Sans Code",
+          name: "Wotfard",
           data: boldData,
           weight: 700,
           style: "normal",
