@@ -1,0 +1,58 @@
+{
+  "paulapplegate-com/images/blog/queensland-australia-OnIfVuoBmC8-unsplash": {
+    "publicId": "images/blog/queensland-australia-OnIfVuoBmC8-unsplash",
+    "cloudName": "paulapplegate-com",
+    "width": 7848,
+    "height": 5235,
+    "version": 1794172900,
+    "sizes": "(max-width: 720px) calc(100vw - 3rem), 672px",
+    "widths": {
+      "jxl": [
+        50,
+        451,
+        692,
+        888,
+        1058,
+        1206,
+        1395,
+        1529,
+        1705,
+        1872,
+        1888,
+        1920
+      ],
+      "avif": [
+        50,
+        426,
+        643,
+        845,
+        1039,
+        1226,
+        1456,
+        1650,
+        1847,
+        1917,
+        1920
+      ],
+      "webp": [
+        50,
+        389,
+        578,
+        731,
+        869,
+        982,
+        1107,
+        1207,
+        1273,
+        1340,
+        1452,
+        1539,
+        1667,
+        1740,
+        1855,
+        1915,
+        1920
+      ]
+    }
+  }
+}

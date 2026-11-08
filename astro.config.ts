@@ -20,6 +20,7 @@ import {
   inlineTocDeprecation,
   rehypeInlineToc,
 } from "./src/utils/rehypeInlineToc";
+import rehypeCloudinaryPicture from "./src/plugins/rehype-cloudinary-picture.mjs";
 import config from "./astro-paper.config";
 
 export default defineConfig({
@@ -44,13 +45,14 @@ export default defineConfig({
     // stay in package.json so a customised config importing them still builds,
     // and are removed in v8.
     processor: unified({
-      rehypePlugins: [
-        rehypeHeadingIds,
-        rehypeInlineToc,
-        rehypeCallouts,
-        rehypeTableWrapper,
-      ],
-    }),
+rehypePlugins: [
+      rehypeHeadingIds,
+      rehypeInlineToc,
+      rehypeCallouts,
+      [rehypeCloudinaryPicture, { cloudName: process.env.PUBLIC_CLOUDINARY_CLOUD_NAME }],
+      rehypeTableWrapper,
+    ],
+      }),
     shikiConfig: {
       themes: { light: "min-light", dark: "night-owl" },
       defaultColor: false,

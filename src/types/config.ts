@@ -56,10 +56,10 @@ interface FeaturesConfig {
       }
     | { enabled: false };
   /**
-   * Search provider. "pagefind" ships in the base template.
+   * Search provider. "orama" ships in the base template.
    * Set to false to disable search entirely.
    */
-  search?: "pagefind" | false;
+  search?: "orama" | false;
   /**
    * Table of contents on posts with 2+ h2/h3 headings: beside the post from
    * 1280px, in the floating button below that. Defaults to true. Turn it off

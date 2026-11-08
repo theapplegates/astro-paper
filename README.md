@@ -19,7 +19,7 @@ Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README
 - [x] responsive (mobile ~ desktops)
 - [x] SEO-friendly
 - [x] light & dark mode
-- [x] static search ([Pagefind](https://pagefind.app/))
+- [x] static search ([Orama](https://orama.com/))
 - [x] draft posts & pagination
 - [x] sitemap & rss feed
 - [x] MDX support
@@ -89,7 +89,7 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 **Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
 **Styling** - [TailwindCSS](https://tailwindcss.com/)  
 **UI/UX** - [Figma Design File](https://www.figma.com/community/file/1356898632249991861)  
-**Static Search** - [Pagefind](https://pagefind.app/)  
+**Static Search** - [Orama](https://orama.com/)  
 **Icons** - [Tablers](https://tabler-icons.io/)  
 **Code Formatting** - [Prettier](https://prettier.io/)  
 **Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  

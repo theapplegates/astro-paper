@@ -12,6 +12,10 @@ tags:
 description: How to update project dependencies and AstroPaper template.
 ---
 
+
+<cloudinary-picture src="images/blog/queensland-australia-OnIfVuoBmC8-unsplash" cloud-name="paulapplegate-com" alt="A couple walking on a beach in Australia" width="7848" height="5235" sizes="(max-width: 720px) calc(100vw - 3rem), 672px"></cloudinary-picture>
+
+
 Updating the dependencies of a project can be tedious. However, neglecting to update project dependencies is not a good idea either 😬. In this post, I will share how I usually update my projects, focusing on AstroPaper as an example. Nonetheless, these steps can be applied to other js/node projects as well.
 
 ![Forrest Gump Fake Quote](@/assets/images/forrest-gump-quote.png)

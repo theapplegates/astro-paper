@@ -1,15 +1,16 @@
+import rehypeCloudinaryPicture from "./src/plugins/rehype-cloudinary-picture.mjs";
 import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
+    url: "https://paper.paulapplegate.com/",
     title: "AstroPaper",
     description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    author: "Paul Applegate",
+    profile: "https://paper.paulapplegate.com",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Asia/Bangkok",
+    timezone: "America/New_York",
     dir: "ltr",
   },
   posts: {
@@ -23,9 +24,9 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/theapplegates/astro-paper/edit/main/",
     },
-    search: "pagefind",
+    search: "orama",
     toc: true,
   },
   socials: [

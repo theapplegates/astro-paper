@@ -21,7 +21,7 @@ AstroPaper comes with a set of useful features that make content publishing easy
 - Highly customizable
 - Organizable blog posts
 - Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
+- Static search with [Orama](https://orama.com/)
 - Automatic social image generation
 
 and so much more.
