@@ -1,0 +1,285 @@
+---
+import Icon from "./Icon.astro";
+
+const { label = "Copy page", markdownHref, class: className, ...htmlAttributes } = Astro.props;
+
+const menuId = "copy-page-menu";
+
+const copyItems = [
+  {
+	action: "markdown",
+	icon: "document-text",
+	label: "Copy as Markdown",
+	hint: "The page content as Markdown",
+  },
+  {
+	action: "prompt",
+	icon: "sparkles",
+	label: "Copy for LLM prompt",
+	hint: "Markdown wrapped in context",
+  },
+  {
+	action: "link",
+	icon: "link",
+	label: "Copy link",
+	hint: "This page's URL",
+  },
+];
+---
+
+<div
+  class:list={["copy-page", className]}
+  data-markdown-href={markdownHref}
+  data-pagefind-ignore
+  hidden
+  {...htmlAttributes}
+>
+  <button
+	type="button"
+	class="copy-page-trigger"
+	aria-expanded="false"
+	aria-haspopup="menu"
+	aria-controls={menuId}
+  >
+	<Icon
+	  name="clipboard-document"
+	  size="1.2rem"
+	/>
+	<span class="copy-page-labels">
+	  <span class="copy-page-trigger-idle">{label}</span>
+	  <span class="copy-page-trigger-done">Copied</span>
+	  <span class="copy-page-trigger-failed">Copy failed</span>
+	</span>
+	<Icon
+	  name="chevron-down"
+	  size="1.2rem"
+	  class="copy-page-caret"
+	/>
+  </button>
+
+  <div
+	class="copy-page-menu"
+	id={menuId}
+	role="menu"
+	hidden
+  >
+	{
+	  copyItems.map((item) => (
+		<button
+		  type="button"
+		  class="copy-page-item"
+		  role="menuitem"
+		  data-action={item.action}
+		>
+		  <Icon
+			name={item.icon}
+			size="1.2rem"
+		  />
+		  <span class="copy-page-item-text">
+			<span class="copy-page-item-label">{item.label}</span>
+			<span class="copy-page-item-hint">{item.hint}</span>
+		  </span>
+		</button>
+	  ))
+	}
+	<hr
+	  class="copy-page-divider"
+	  role="separator"
+	/>
+
+	<a
+	  class="copy-page-item"
+	  role="menuitem"
+	  href={markdownHref}
+	>
+	  <Icon
+		name="arrow-top-right-on-square"
+		size="1.2rem"
+	  />
+	  <span class="copy-page-item-text">
+		<span class="copy-page-item-label">Open Markdown</span>
+		<span class="copy-page-item-hint">The raw .md file</span>
+	  </span>
+	</a>
+
+	<button
+	  type="button"
+	  class="copy-page-item"
+	  role="menuitem"
+	  data-action="print"
+	>
+	  <Icon
+		name="printer"
+		size="1.2rem"
+	  />
+	  <span class="copy-page-item-text">
+		<span class="copy-page-item-label">Print page</span>
+		<span class="copy-page-item-hint">Opens the print layout</span>
+	  </span>
+	</button>
+  </div>
+
+  <p
+	class="copy-page-status visually-hidden"
+	role="status"
+  >
+  </p>
+</div>
+
+<script>
+  import { setupAllCopyPage } from "./setup";
+
+  const init = () => {
+	setupAllCopyPage();
+  };
+
+  document.addEventListener("astro:page-load", init);
+  if (document.readyState === "loading") {
+	document.addEventListener("DOMContentLoaded", init);
+  } else {
+	init();
+  }
+</script>
+
+<style is:global>
+  @layer components {
+	.copy-page {
+	  --copy-page-menu-width: 17rem;
+	  position: relative;
+	}
+
+	.copy-page-trigger {
+	  align-items: center;
+	  background-color: var(--background);
+	  border: 1px solid var(--border);
+	  border-radius: var(--radius-md, 0.375rem);
+	  color: var(--foreground);
+	  cursor: pointer;
+	  display: flex;
+	  font: inherit;
+	  font-size: var(--font-size-sm, 0.875rem);
+	  gap: var(--spacing-xs, 0.5rem);
+	  padding: var(--spacing-xs, 0.5rem) var(--spacing-md, 1rem);
+	  transition:
+		border-color 0.2s ease-out,
+		color 0.2s ease-out;
+	  white-space: nowrap;
+	}
+
+	.copy-page-trigger:hover {
+	  border-color: var(--accent);
+	  color: var(--accent);
+	}
+
+	.copy-page-caret {
+	  transition: transform 0.2s ease-out;
+	}
+
+	.copy-page-trigger[aria-expanded="true"] .copy-page-caret {
+	  transform: rotate(180deg);
+	}
+
+	.copy-page-labels {
+	  display: grid;
+	  & > span {
+		grid-area: 1 / 1;
+	  }
+	}
+
+	.copy-page-trigger-done,
+	.copy-page-trigger-failed,
+	.copy-page[data-state] .copy-page-trigger-idle {
+	  visibility: hidden;
+	}
+
+	.copy-page[data-state="copied"] .copy-page-trigger-done,
+	.copy-page[data-state="failed"] .copy-page-trigger-failed {
+	  visibility: visible;
+	}
+
+	.copy-page[data-state="copied"] .copy-page-trigger {
+	  color: #10b981;
+	}
+
+	.copy-page[data-state="failed"] .copy-page-trigger {
+	  color: #ef4444;
+	}
+
+	.copy-page-menu {
+	  background-color: var(--background);
+	  border: 1px solid var(--border);
+	  border-radius: var(--radius-md, 0.375rem);
+	  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+	  display: flex;
+	  flex-direction: column;
+	  inset-inline-end: 0;
+	  min-width: var(--copy-page-menu-width);
+	  padding: 0.5rem;
+	  position: absolute;
+	  top: calc(100% + 0.5rem);
+	  z-index: 50;
+	}
+
+	.copy-page-menu[hidden] {
+	  display: none;
+	}
+
+	.copy-page-item {
+	  align-items: start;
+	  background: none;
+	  border: 0;
+	  border-radius: 0.375rem;
+	  color: var(--foreground);
+	  cursor: pointer;
+	  display: flex;
+	  font: inherit;
+	  gap: 0.5rem;
+	  padding: 0.5rem;
+	  text-align: start;
+	  text-decoration: none;
+	}
+
+	.copy-page-item:hover,
+	.copy-page-item:focus-visible {
+	  background-color: var(--muted);
+	}
+
+	.copy-page-divider {
+	  background-color: var(--border);
+	  border: 0;
+	  height: 1px;
+	  margin: 0.5rem 0;
+	  width: 100%;
+	}
+
+	.copy-page-item-text {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 0;
+	}
+
+	.copy-page-item-label {
+	  font-size: 0.875rem;
+	  font-weight: 600;
+	  line-height: 1.25;
+	}
+
+	.copy-page-item-hint {
+	  color: var(--muted-foreground);
+	  font-size: 0.75rem;
+	  line-height: 1;
+	}
+
+	.visually-hidden {
+	  position: absolute;
+	  width: 1px;
+	  height: 1px;
+	  padding: 0;
+	  margin: -1px;
+	  overflow: hidden;
+	  clip: rect(0, 0, 0, 0);
+	  white-space: nowrap;
+	  border-width: 0;
+	}
+  }
+</style>
