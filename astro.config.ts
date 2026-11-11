@@ -4,6 +4,7 @@ import {
   fontProviders,
   svgoOptimizer,
 } from "astro/config";
+import { astrotypeFonts } from "./src/astrotypes/fonts.mjs";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";

@@ -1,0 +1,20 @@
+:root {
+  --font-heading: var(--font-inter-tight, "Inter Tight");
+  --font-body: var(--font-open-sans, "Open Sans");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+body, p {
+  font-family: var(--font-body);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}

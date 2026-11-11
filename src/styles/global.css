@@ -2,6 +2,7 @@
 @import "./theme.css";
 @import "./typography.css";
 @import "rehype-callouts/theme/obsidian";
+@import "./astrotypes/chalk.css";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
@@ -48,3 +49,5 @@
 :target {
   scroll-margin-block: 1rem;
 }
+
+
