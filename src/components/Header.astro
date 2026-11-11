@@ -17,7 +17,7 @@ const pathname = Astro.url.pathname;
 
 // Show this on individual posts, but not /posts/ or numbered list pages.
 const isPostPage =
-  /^\/posts\/[^/]+\/?$/.test(pathname) &&
+  /^\/posts\/.+/.test(pathname) &&
   !/^\/posts\/\d+\/?$/.test(pathname);
 
 const markdownHref = `${pathname.replace(/\/+$/, "")}.md`;
