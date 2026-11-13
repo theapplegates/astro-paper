@@ -2,7 +2,6 @@
 @import "./theme.css";
 @import "./typography.css";
 @import "rehype-callouts/theme/obsidian";
-@import "./astrotypes/chalk.css";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
@@ -11,6 +10,14 @@
     @apply border-border outline-accent/75;
     scrollbar-width: auto;
     scrollbar-color: var(--color-muted) transparent;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-serif);
   }
   a,
   button,
@@ -22,7 +29,7 @@
     cursor: pointer;
   }
 }
-  /* Markdown images share the same responsive picture pipeline. */
+/* Markdown images share the same responsive picture pipeline. */
 .cloudinary-picture {
   display: block;
 }
@@ -32,7 +39,6 @@
   width: 100%;
   height: auto;
 }
-
 
 @utility max-w-app {
   @apply max-w-3xl;
@@ -49,5 +55,3 @@
 :target {
   scroll-margin-block: 1rem;
 }
-
-

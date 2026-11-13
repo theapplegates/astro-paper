@@ -4,7 +4,6 @@ import {
   fontProviders,
   svgoOptimizer,
 } from "astro/config";
-import { astrotypeFonts } from "./src/astrotypes/fonts.mjs";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
@@ -74,114 +73,105 @@ export default defineConfig({
   },
   fonts: [
     {
-      name: "Wotfard",
-      cssVariable: "--font-wotfard",
+      name: "Geist Sans",
+      cssVariable: "--font-geist-sans",
       provider: fontProviders.local(),
-      fallbacks: ["sans-serif"],
+      fallbacks: ["system-ui", "sans-serif"],
       options: {
         variants: [
           {
-            weight: 100,
+            weight: "100 900",
             style: "normal",
             src: [
-              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-thin-webfont.woff2",
+              "./node_modules/geist/dist/fonts/geist-sans/Geist-Variable.woff2",
             ],
           },
           {
-            weight: 200,
+            weight: "100 900",
+            style: "italic",
+            src: [
+              "./node_modules/geist/dist/fonts/geist-sans/Geist-Italic[wght].woff2",
+            ],
+          },
+        ],
+      },
+    },
+    {
+      name: "Geist Mono",
+      cssVariable: "--font-geist-mono",
+      provider: fontProviders.local(),
+      fallbacks: [
+        "ui-monospace",
+        "SFMono-Regular",
+        "Menlo",
+        "Monaco",
+        "Consolas",
+        "Liberation Mono",
+        "Courier New",
+        "monospace",
+      ],
+      options: {
+        variants: [
+          {
+            weight: "100 900",
             style: "normal",
             src: [
-              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-extralight-webfont.woff2",
+              "./node_modules/geist/dist/fonts/geist-mono/GeistMono-Variable.woff2",
             ],
           },
           {
-            weight: 300,
-            style: "normal",
+            weight: "100 900",
+            style: "italic",
             src: [
-              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-light-webfont.woff2",
+              "./node_modules/geist/dist/fonts/geist-mono/GeistMono-Italic[wght].woff2",
             ],
           },
+        ],
+      },
+    },
+    {
+      name: "Geist Serif",
+      cssVariable: "--font-geist-serif",
+      provider: fontProviders.local(),
+      fallbacks: ["Times New Roman", "Times", "serif"],
+      options: {
+        variants: [
           {
             weight: 400,
             style: "normal",
             src: [
-              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-regular-webfont.woff2",
+              "./node_modules/geist/dist/fonts/geist-serif/GeistSerifVF.woff2",
             ],
           },
+        ],
+      },
+    },
+    {
+      name: "Geist Pixel Square",
+      cssVariable: "--font-geist-pixel-square",
+      provider: fontProviders.local(),
+      fallbacks: [
+        "ui-monospace",
+        "SFMono-Regular",
+        "Menlo",
+        "Monaco",
+        "Consolas",
+        "monospace",
+      ],
+      options: {
+        variants: [
           {
             weight: 500,
             style: "normal",
             src: [
-              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-medium-webfont.woff2",
-            ],
-          },
-          {
-            weight: 600,
-            style: "normal",
-            src: [
-              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-semibold-webfont.woff2",
-            ],
-          },
-          {
-            weight: 700,
-            style: "normal",
-            src: [
-              "./src/assets/fonts/Wotfard-Roman/woff2/wotfard-bold-webfont.woff2",
-            ],
-          },
-          {
-            weight: 100,
-            style: "italic",
-            src: [
-              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-thinitalic-webfont.woff2",
-            ],
-          },
-          {
-            weight: 200,
-            style: "italic",
-            src: [
-              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-extralightitalic-webfont.woff2",
-            ],
-          },
-          {
-            weight: 300,
-            style: "italic",
-            src: [
-              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-lightitalic-webfont.woff2",
-            ],
-          },
-          {
-            weight: 400,
-            style: "italic",
-            src: [
-              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-regularitalic-webfont.woff2",
-            ],
-          },
-          {
-            weight: 500,
-            style: "italic",
-            src: [
-              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-mediumitalic-webfont.woff2",
-            ],
-          },
-          {
-            weight: 600,
-            style: "italic",
-            src: [
-              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-semibolditalic-webfont.woff2",
-            ],
-          },
-          {
-            weight: 700,
-            style: "italic",
-            src: [
-              "./src/assets/fonts/Wotfard-Italic/woff2/wotfard-bolditalic-webfont.woff2",
+              "./node_modules/geist/dist/fonts/geist-pixel/GeistPixel-Square.woff2",
             ],
           },
         ],
       },
     },
   ],
+
   env: {
     schema: {
       PUBLIC_GOOGLE_SITE_VERIFICATION: envField.string({

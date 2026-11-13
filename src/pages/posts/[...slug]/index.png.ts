@@ -28,7 +28,7 @@ export const GET: APIRoute = async ({ props, url }) => {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
-  const fonts = fontData["--font-wotfard"];
+  const fonts = fontData["--font-geist-sans"];
   const regularFontPath = getFontPathByWeight(fonts, 400, { format: "woff2" });
   const boldFontPath = getFontPathByWeight(fonts, 700, { format: "woff2" });
 
@@ -57,6 +57,7 @@ export const GET: APIRoute = async ({ props, url }) => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          fontFamily: "Geist Sans",
         },
         children: [
           {
@@ -172,13 +173,13 @@ export const GET: APIRoute = async ({ props, url }) => {
       embedFont: true,
       fonts: [
         {
-          name: "Wotfard",
+          name: "Geist Sans",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Wotfard",
+          name: "Geist Sans",
           data: boldData,
           weight: 700,
           style: "normal",

@@ -3,3 +3,8 @@ packages: ["."]
 allowBuilds:
   esbuild: true
   sharp: true
+packageExtensions:
+  geist@*:
+    peerDependenciesMeta:
+      next:
+        optional: true
